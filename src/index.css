@@ -1,13 +1,88 @@
+/* our application custom style */
+
+/* here we're adding font-family for our whole application. */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #f0f7f7;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.btn-primary,
+.bg-primary {
+  background: linear-gradient(45deg, black, blueviolet);
+}
+.btn-blue,
+.bg-blue {
+  background: linear-gradient(45deg, black, white);
+}
+.btn-secondary,
+.bg-secondary {
+  background: linear-gradient(45deg, black, purple);
+}
+.btn-success,
+.bg-success {
+  background: linear-gradient(45deg, black, limegreen);
+}
+.btn-info,
+.bg-info {
+  background: linear-gradient(45deg, black, lightblue);
+}
+.btn-warning,
+.bg-warning {
+  background: linear-gradient(45deg, black, orange);
+}
+.btn-danger,
+.bg-danger {
+  background: linear-gradient(45deg, black, red);
+}
+.btn-light,
+.bg-light {
+  background: linear-gradient(45deg, black, gray);
+}
+.btn-white,
+.bg-white {
+  background: linear-gradient(45deg, white, gray);
+}
+.btn-dark,
+.bg-dark {
+  background: linear-gradient(45deg, black, darkslategray);
+}
+/* .btn-white,
+.bg-white {
+  background: linear-gradient(45deg, grey, white);
+} */
+
+/* ------------------------------- Landing Page --------------------------------------- */
+.landing-page {
+  background: white url("assets/img/bg-image.jpg") no-repeat scroll center;
+  background-size: cover;
+  height: 100vh;
+  color: #c8cfcf;
+}
+
+.wrapper {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+
+/* -------------------------------- Custom Button & Background ------------------------ */
+.btn-teal,
+.btn-teal,
+.bg-teal {
+  background-color: #114444 !important;
+}
+
+.text-teal {
+  color: #114444 !important;
+}
+
+.bg-light-grey {
+  background: linear-gradient(45deg, darkgrey, #add8e6) !important;
+}
+
+.profile-img {
+  box-shadow: 0 0 10px black;
+}
+
+table {
+  box-shadow: 0 0 2px #114444;
 }

@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "..\\..\\.."
+	},
+	{
+		"path": "..\\..\\..\\..\\..\\Nodejs"
+	},
+	{
+		"path": "c:\\Users\\Ashishkumar\\Desktop\\node-course"
+	}
+],
+  "settings": {
+    "git.ignoreLimitWarning": true
+  }
+}
